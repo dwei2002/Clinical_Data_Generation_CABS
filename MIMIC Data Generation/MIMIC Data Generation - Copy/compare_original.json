@@ -1,0 +1,52 @@
+{
+  "10006": {
+    "PATIENTS": [
+      {
+        "subject_id": 10006,
+        "gender": "F",
+        "dob": "2094-03-05 00:00:00",
+        "dod": "2165-08-12 00:00:00",
+        "dod_hosp": "2165-08-12 00:00:00",
+        "dod_ssn": "2165-08-12 00:00:00",
+        "expire_flag": 1
+      }
+    ],
+    "ADMISSIONS": [
+      {
+        "subject_id": 10006,
+        "hadm_id": 142345,
+        "admittime": "2164-10-23 21:09:00",
+        "dischtime": "2164-11-01 17:15:00",
+        "deathtime": null,
+        "admission_type": "EMERGENCY",
+        "admission_location": "EMERGENCY ROOM ADMIT",
+        "discharge_location": "HOME HEALTH CARE",
+        "insurance": "Medicare",
+        "language": null,
+        "religion": "CATHOLIC",
+        "marital_status": "SEPARATED",
+        "ethnicity": "BLACK/AFRICAN AMERICAN",
+        "edregtime": "2164-10-23 16:43:00",
+        "edouttime": "2164-10-23 23:00:00",
+        "diagnosis": "SEPSIS",
+        "hospital_expire_flag": 0,
+        "has_chartevents_data": 1
+      }
+    ],
+    "ICUSTAYS": [
+      {
+        "subject_id": 10006,
+        "hadm_id": 142345,
+        "icustay_id": 206504,
+        "dbsource": "carevue",
+        "first_careunit": "MICU",
+        "last_careunit": "MICU",
+        "first_wardid": 52,
+        "last_wardid": 52,
+        "intime": "2164-10-23 21:10:15",
+        "outtime": "2164-10-25 12:21:07",
+        "los": 1.6325
+      }
+    ]
+  }
+}

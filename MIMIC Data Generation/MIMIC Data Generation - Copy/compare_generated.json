@@ -1,0 +1,52 @@
+{
+  "44221": {
+    "PATIENTS": [
+      {
+        "subject_id": 44221,
+        "gender": "M",
+        "dob": "2068-06-14 00:00:00",
+        "dod": "2112-04-12 00:00:00",
+        "dod_hosp": "2112-04-12 00:00:00",
+        "dod_ssn": null,
+        "expire_flag": 1
+      }
+    ],
+    "ADMISSIONS": [
+      {
+        "subject_id": 44221,
+        "hadm_id": 713686,
+        "admittime": "2111-12-08 13:50:00",
+        "dischtime": "2111-12-11 15:05:00",
+        "deathtime": null,
+        "admission_type": "EMERGENCY",
+        "admission_location": "EMERGENCY ROOM ADMIT",
+        "discharge_location": "HOME",
+        "insurance": "Medicare",
+        "language": "ENGL",
+        "marital_status": "WIDOWED",
+        "ethnicity": "WHITE",
+        "religion": "CATHOLIC",
+        "edregtime": "2111-12-08 11:52:00",
+        "edouttime": "2111-12-08 14:25:00",
+        "diagnosis_entity": "PHYSIANS ORDERS",
+        "discharge_status": "DISCHGED",
+        "chartdate": 21111108
+      }
+    ],
+    "ICUSTAYS": [
+      {
+        "subject_id": 44221,
+        "hadm_id": 713686,
+        "icustay_id": 206966,
+        "dbsource": "metavision",
+        "first_careunit": "MICU",
+        "last_careunit": "CCU",
+        "first_wardid": 33,
+        "last_wardid": 12,
+        "intime": "2111-12-08 14:06:53",
+        "outtime": "2111-12-10 14:04:48",
+        "los": 1.8437
+      }
+    ]
+  }
+}
